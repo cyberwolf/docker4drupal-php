@@ -15,3 +15,5 @@ RUN apk -U add nodejs-lts && \
 RUN npm install -g eslint@3.5.0
 
 RUN npm install -g less
+
+RUN npm install -g less-plugin-clean-css
